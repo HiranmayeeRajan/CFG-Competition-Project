@@ -1,0 +1,106 @@
+body {
+background-color: rgba(221,221,221,0.8);
+}
+
+.container-fluid {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.container {
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+#page-name {
+  background: #f8f8f8;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#topbar-menu a {
+  color: #6f7072;
+}
+
+#topbar-menu a:hover {
+  color: #6f7072;
+  background-color: rgba(230,230,230,0.6);
+}
+
+#topbar-menu a.home:hover{
+  color: #6f7072;
+  background-color: rgba(200,200,210,0.8);
+}
+
+#topbar-menu li.clicked {
+  background-color: rgba(200,200,210,0.8);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+nav.navbar {
+  border-bottom-color: rgba(90,90,90,0.3);
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  margin-bottom: 0px;
+}
+
+.container > .jumbotron {
+  background-color: transparent;
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-bottom: 0%;
+}
+
+.carousel-inner img,
+.carousel a {
+  border-radius: 25px;
+}
+
+#bottombar{
+  background: #f8f8f8;
+  text-align: center;
+  padding-right: 10%;
+  padding-top: 2%;
+}
+
+#social-buttons button {
+  color: rgba(255,255,255,1);
+  border-radius: 30px;
+  border-color: transparent;
+}
+
+.btn-twitter {
+  background-color: #00aced;
+}
+.btn-twitter:hover {
+  background-color: rgba(0,172,237,0.55);
+}
+
+.btn-pinterest {
+  background-color: #cb2027;
+}
+
+.btn-pinterest:hover {
+  background-color: rgba(203,32,39,0.6);
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-facebook:hover {
+  background-color: rgba(59,89,152,0.6);
+}
+
+.btn-stumbleupon {
+  background-color: #eb4823;
+}
+
+.btn-stumbleupon:hover {
+  background-color: rgba(235,72,35,0.6);
+}
+
+#contact-details {
+  text-align: right;
+}
