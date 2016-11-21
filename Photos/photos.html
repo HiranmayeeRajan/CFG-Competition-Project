@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type=text/css href="./photos.css">
+    <link rel="stylesheet" href="/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--To use on a touchscreen-->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <title>Photos</title>
+
+  </head>
+
+  <body>
+
+    <!--For the heading-->
+    <div class="container-fluid">
+      <div class="jumbotron" id="page-name">
+        <h2>[NAME]</h2>
+      </div>
+    </div>
+
+    <!--For navigation links-->
+
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container-fluid">
+
+        <!--Small screen size-->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topbar-menu" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="topbar-menu">
+          <ul class="nav nav-pills nav-justified">
+            <li role="presentation"><a href="../Reviews/reviews.html" class="home"><h4>Home</h4></a></li>
+            <li role="presentation"><a href="#" class="about"><h4>About</h4></a></li>
+            <li role="presentation" class="clicked"><a href="#" class="photos"><h4>Photos</h4></a></li>
+            <li role="presentation"><a href="../form.html" class="contact"><h4>Contact</h4></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <div id="main-content" class="row">
+
+      <div class="col-xs-4">
+
+        <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#Album1-modal">
+          <div class="for-effect">
+            <a href="#" class="thumbnail">
+              <img src="./Album 1/Photo 1.jpg" alt="Photo1">
+            </a>
+            <div class="overlay"></div>
+            <div class="info">
+              <h4>Album 1</h4>
+            </div>
+          </div>
+        </button>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="Album1-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg">
+
+            <div class="modal-content">
+              <!--div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="Album1-Label">Album 1</h4>
+              </div-->
+
+              <div class="modal-body">
+
+                <div id="Album1-photos" class=" carousel slide">
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                      <img src="./Album 1/Photo 1.jpg" alt="Photo 1" class="img-responsive">
+                    </div>
+
+                    <div class="item">
+                      <img src="./Album 1/Photo 2.jpg" alt="Photo 2" class="img-responsive">
+                    </div>
+
+                    <div class="item">
+                      <img src="./Album 1/Photo 3.jpg" alt="Photo 3" class="img-responsive">
+                    </div>
+
+                    <div class="item">
+                      <img src="./Album 1/Photo 4.jpg" alt="Photo 4" class="img-responsive">
+                    </div>
+
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#Album1-photos" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+
+                  <a class="right carousel-control" href="#Album1-photos" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+
+                </div>
+
+              </div><!--Closing modal body-->
+            </div><!--Closing modal content-->
+          </div><!--Closing .modal-dialog-->
+        </div><!--Closing .modal-->
+
+      </div>
+
+      <div class="col-xs-4">
+        <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#Album2-modal">
+          <div class="for-effect">
+            <a href="#" class="thumbnail">
+              <img src="./Album 2/photo4.jpg" alt="Photo1">
+            </a>
+            <div class="overlay"></div>
+            <div class="info">
+              <h4>Album 2</h4>
+            </div>
+          </div>
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="Album2-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg">
+
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="Album2-Label">Album 2</h4>
+              </div>
+              <div class="modal-body">
+                <!--h4>Some text</h4-->
+                <div id="Album2-photos" class=" carousel slide">
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                      <img src="./Album 2/photo1.jpg" alt="Photo 1" class="img-responsive">
+                    </div>
+
+                    <div class="item">
+                      <img src="./Album 2/photo2.jpg" alt="Photo 2" class="img-responsive">
+                    </div>
+
+                    <div class="item">
+                      <img src="./Album 2/photo3.jpg" alt="Photo 3" class="img-responsive">
+                    </div>
+
+                    <div class="item">
+                      <img src="./Album 2/photo4.jpg" alt="Photo 4" class="img-responsive">
+                    </div>
+
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#Album2-photos" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+
+                  <a class="right carousel-control" href="#Album2-photos" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+
+                </div>
+
+              </div><!--Closing modal body-->
+            </div><!--Closing modal content-->
+          </div><!--Closing .modal-dialog-->
+        </div><!--Closing .modal-->
+      </div>
+
+      <div class="col-xs-4">
+        <button type="button" class="btn btn-sm" data-toggle="modal" data-target="#Album3-modal">
+          <div class="for-effect">
+            <a href="#" class="thumbnail">
+              <img src="./Album 3/Photo39_36.jpg" alt="Photo1">
+            </a>
+            <div class="overlay"></div>
+            <div class="info">
+              <h4>Album 3</h4>
+            </div>
+          </div>
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="Album3-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-lg">
+
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="Album3-Label">Album 3</h4>
+              </div>
+              <div class="modal-body">
+                <!--h4>Some text</h4-->
+                <div id="Album3-photos" class=" carousel slide">
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                      <img src="./Album 3/Photo27_24.jpg" alt="Photo 1" class="img-responsive">
+                    </div>
+
+                    <div class="item">
+                      <img src="./Album 3/Photo28_25.jpg" alt="Photo 2" class="img-responsive">
+                    </div>
+
+                    <div class="item">
+                      <img src="./Album 3/Photo30_27.jpg" alt="Photo 3" class="img-responsive">
+                    </div>
+
+                    <div class="item">
+                      <img src="./Album 3/Photo39_36.jpg" alt="Photo 4" class="img-responsive">
+                    </div>
+
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#Album3-photos" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+
+                  <a class="right carousel-control" href="#Album3-photos" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+
+                </div>
+
+              </div><!--Closing modal body-->
+            </div><!--Closing modal content-->
+          </div><!--Closing .modal-dialog-->
+        </div><!--Closing .modal-->
+      </div>
+
+    </div>
+
+
+    <footer>
+      <div id="bottombar">
+        <div class"container">
+          <div class="row">
+
+            <div id="social-buttons">
+
+              <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-4 h1">
+                <button class="btn btn-twitter"><i class="fa fa-twitter"></i><!-- Twitter--></button>
+
+                <button class="btn btn-pinterest"><i class="fa fa-pinterest"></i><!-- Pinterest--></button>
+
+                <button class="btn btn-facebook"><i class="fa fa-facebook"></i><!-- Facebook--></button>
+
+                <button class="btn btn-stumbleupon"><i class="fa fa-stumbleupon"></i><!-- StumbleUpon--></button>
+              </div>
+
+            </div>
+
+
+            <div id="contact-details">
+
+              <div class="col-xs-12 col-sm-12 col-md-2 col-md-offset-2">
+                <address>
+                  <br><strong>[NAME]</strong><br>
+
+                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                  [email ID]<br>
+
+                  <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                  [phone no.]<br>
+
+                </address>
+              </div>
+
+            </div>
+
+          </div><!-- /div for .row-->
+        </div><!-- /div for.container-->
+      </div><!-- /div for #best-photos-->
+    </footer>
+
+  </body>
+</html>

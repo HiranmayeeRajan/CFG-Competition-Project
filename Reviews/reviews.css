@@ -30,12 +30,12 @@ font-family: "Comfortaa", cursive;
 }
 
 #topbar-menu a:hover {
-  color: #aeafaf;
+  color: #dedede;
   background-color: rgba(67,67,67,0.6);
 }
 
 #topbar-menu a.home:hover{
-  color: #aeafaf;
+  color: #dedede;
   background-color: rgba(67,67,67,0.6);
 }
 
