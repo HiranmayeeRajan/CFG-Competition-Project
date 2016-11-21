@@ -9,9 +9,10 @@ font-family: "Comfortaa", cursive;
   padding-right: 0%;
 }
 
-/*.jumbotron {
-  border-radius: 0px;
-}*/
+#contactform .container,
+#contactform .jumbotron {
+  background-color: transparent;
+}
 
 #page-name {
   background: #222222;
