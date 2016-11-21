@@ -29,8 +29,13 @@ font-family: "Comfortaa", cursive;
   background-color: #222222;
 }
 
-#topbar-menu a:hover {
+#topbar-menu a.home:visited{
   color: #dedede;
+  background-color: rgba(87,87,87,1);
+}
+
+#topbar-menu a:hover {
+  color: #aeafaf;
   background-color: rgba(67,67,67,0.6);
 }
 
