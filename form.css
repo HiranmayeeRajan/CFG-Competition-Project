@@ -14,6 +14,10 @@ font-family: "Comfortaa", cursive;
   background-color: transparent;
 }
 
+.btn-send{
+  background-color: black;
+}
+
 #page-name {
   background: #222222;
   text-align: center;
