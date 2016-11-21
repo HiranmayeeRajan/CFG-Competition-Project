@@ -9,15 +9,6 @@ font-family: "Comfortaa", cursive;
   padding-right: 0%;
 }
 
-#contactform .container,
-#contactform .jumbotron {
-  background-color: transparent;
-}
-
-.btn-send{
-  background-color: #222222;
-}
-
 #page-name {
   background: #222222;
   text-align: center;
@@ -33,7 +24,7 @@ font-family: "Comfortaa", cursive;
   background-color: #222222;
 }
 
-#topbar-menu a.photos:visited{
+#topbar-menu a.contact:visited{
   color: #dedede;
   background-color: rgba(87,87,87,1);
 }
@@ -43,7 +34,7 @@ font-family: "Comfortaa", cursive;
   background-color: rgba(67,67,67,0.6);
 }
 
-#topbar-menu a.photos:hover{
+#topbar-menu a.contact:hover{
   color: #dedede;
   background-color: rgba(67,67,67,0.6);
 }
@@ -64,55 +55,13 @@ nav.navbar {
   padding-right: 5%;
 }
 
-#main-content {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
+#contactform .container,
+#contactform .jumbotron {
+  background-color: transparent;
 }
 
-#main-content button {
-  padding: 0;
-  background: transparent;
-}
-
-.for-effect {
-  position: relative;
-  display: inline-block;
-}
-
-.info {
-  display: none;
-  position: absolute;
-  bottom: 0;
-  left: 10px;
-  text-align: center;
-  color: #aeaeae;
-  z-index: 2;
-}
-
-.info h4 {
-  font-size: 3.5vmin;
-}
-
-.for-effect:hover > .overlay {
-  position: absolute;
-  top: 0;
-  width:100%;
-  height:100%;
-  left: 0;
-  background-color:#000;
-  opacity:0.5;
-  z-index: 1;
-  display: block;
-}
-
-.for-effect:hover > .info {
-  display: block;
-}
-
-#main-content a {
-  margin-bottom: 0;
+.btn-send{
+  background-color: #222222;
 }
 
 #bottombar{
