@@ -9,7 +9,8 @@ font-family: "Comfortaa", cursive;
   padding-right: 0%;
 }
 
-#contactform.jumbotron {
+#contactform .container,
+#contactform .jumbotron {
   background-color: transparent;
 }
 
