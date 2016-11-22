@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--To use on a touchscreen-->
     <script src="https://code.jquery.com/jquery-3.1.1.js" type="text/javascript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <link rel="icon" href="../Camera Icon.png" type="image">
     <title>Photos</title>
 
   </head>
@@ -69,7 +69,7 @@
 
       <!--Content for tabs-->
       <div class="tab-content">
-        <div id="album-view" role="tabpanel" class="tab-pane active">
+        <div id="album-view" role="tabpanel" class="tab-pane active fade in">
           <div class="row">
 
             <div class="col-xs-4">
@@ -94,7 +94,7 @@
 
                     <div class="modal-body">
 
-                      <div id="Album1-photos" class=" carousel slide" data-interval="10000">
+                      <div id="Album1-photos" class="carousel slide" data-interval="10000">
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
@@ -709,7 +709,7 @@
           </div>
         </div><!--Closing div for #album-view"-->
 
-        <div id="image-view" role="tabpanel" class="tab-pane">
+        <div id="image-view" role="tabpanel" class="tab-pane fade">
           <div class="row">
             <div class="col-xs-6 col-md-3">
               <img src="./Album 1/Photo 1.jpg" alt="Photo 1" class="img-thumbnail img-responsive">
@@ -774,7 +774,6 @@
 
     </div>
 
-
     <footer>
       <div id="bottombar">
         <div class"container">
@@ -817,5 +816,11 @@
       </div><!-- /div for #best-photos-->
     </footer>
 
+    <div id="static-button">
+      <a href="#page-name" class="btn btn-default" role="button">
+        <span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span>
+      </a>
+    </div>
+    
   </body>
 </html>
