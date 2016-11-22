@@ -34,7 +34,7 @@ font-family: "Comfortaa", cursive;
 }
 
 #topbar-menu a:hover {
-  color: #aeafaf;
+  color: #dedede;
   background-color: rgba(67,67,67,0.6);
 }
 
@@ -66,9 +66,22 @@ nav.navbar {
   margin-right: 5%;
 }
 
-#main-content button {
+#album-view button {
   padding: 0;
   background: transparent;
+}
+
+#album-view a {
+  margin-bottom: 0;
+}
+
+#album-view.thumbnail {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+hr {
+  border-color: #cccccc;
 }
 
 .for-effect {
@@ -106,8 +119,46 @@ nav.navbar {
   display: block;
 }
 
-#main-content a {
-  margin-bottom: 0;
+#main-content .glyphicon {
+  color: #fff;
+}
+#main-content .nav-pills a {
+  background: transparent;
+  border: thin solid rgba(100,100,100,0.3);
+}
+
+#main-content .nav-pills li.active {
+  background: rgba(100,100,100,0.8);
+  border-radius: 3px;
+}
+
+#main-content .nav-pills li.active a {
+  background: rgba(100,100,100,0.8);
+}
+
+#main-content .nav-pills li:visited a,
+#main-content .nav-pills li.active:visited a {
+  background: transparent;
+}
+
+#main-content .nav-pills li:hover a {
+  background: rgba(67,67,67,0.6);
+}
+
+#main-content .nav-pills li.active:hover a {
+  background: rgba(67,67,67,0.6);
+}
+
+#image-view img {
+  /*width: 300px;
+  height: 187.5px;*/
+  background: transparent;
+  border: transparent;
+  margin-bottom: 8px;
+}
+
+#image-view .col-xs-6 {
+  padding-right: 0px;
 }
 
 #bottombar{
