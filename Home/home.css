@@ -1,7 +1,7 @@
 body {
 background-color: #222222;
 color: #aeafaf;
-font-family: "Comfortaa", cursive;
+font-family: "Lato", sans-serif;
 }
 
 
@@ -60,6 +60,10 @@ nav.navbar {
   padding-right: 5%;
 }
 
+/*#best-photos img{
+  /*width: auto;
+  max-height: 820px;
+}*/
 .carousel {
   border-color: transparent;
 }
@@ -77,6 +81,10 @@ nav.navbar {
 #social-buttons a {
   color: rgba(255,255,255,1);
   border-radius: 30px;
+  border-color: transparent;
+}
+
+#social-buttons a:hover {
   border-color: transparent;
 }
 
@@ -105,6 +113,7 @@ nav.navbar {
   background-color: transparent;
 }
 .btn-stumbleupon:hover {
+  border-color: transparent;
   background-color: #eb4823;
 }
 

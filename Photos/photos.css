@@ -1,7 +1,7 @@
 body {
 background-color: #222222;
 color: #aeafaf;
-font-family: "Comfortaa", cursive;
+font-family: "Lato", sans-serif;
 }
 
 .container-fluid {
@@ -79,6 +79,13 @@ nav.navbar {
   background-color: #cccccc;
   border-color: #cccccc;
 }
+
+/*@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #album-view.thumbnail img {
+    width: 50px;
+    height: 2px;
+  }
+}*/
 
 hr {
   border-color: #cccccc;

@@ -1,7 +1,7 @@
 body {
 background-color: #222222;
 color: #aeafaf;
-font-family: "Comfortaa", cursive;
+font-family: "Lato", sans-serif;
 }
 
 
@@ -60,6 +60,11 @@ nav.navbar {
   padding-right: 5%;
 }
 
+#main-content {
+  position: relative;
+  bottom: -70px;
+  font-size: 18px;
+}
 
 #bottombar{
   background: #222222;
@@ -69,6 +74,8 @@ nav.navbar {
   padding-bottom: 1%;
   margin-top: 20px;
   border-top: thin solid rgba(100,100,100,0.3);
+  position: relative;
+  bottom: -185px;
 }
 
 #social-buttons a {
